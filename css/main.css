@@ -1106,7 +1106,7 @@ header .logo {
 	float: left;
 	margin-left: 20px;
 	margin-right: 50px;
-	margin-top: 25px;
+	margin-top: 20px;
 	position: relative;
 }
 header .logo a {
@@ -1117,10 +1117,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	width: 112px;
+	height: 25px;
+	background: url("../images/annie-logo.png") no-repeat center;
+	background-size: contain;
 }
 
 /**
@@ -1219,7 +1219,7 @@ header .logo a {
 /* navigation panel */
 #main-nav-wrap {
 	display: block;
-	width: 100%;
+	width: 100vw;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 1.5rem;
 	position: absolute;
@@ -1277,12 +1277,14 @@ header .logo a {
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		left: 35px;
+		left: 0px;
+		width: 100vw ;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
-		left: 25px;
+		left: 0px;
+		widows: 100vw;
 	}
 }
 
